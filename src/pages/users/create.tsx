@@ -11,11 +11,11 @@ import {
 import * as yup from "yup";
 import Link from "next/link";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { SubmitHandler, useForm } from "react-hook-form";
 
 import { Input } from "../../components/Form/Input";
 import { Header } from "../../components/Header";
 import { Sidebar } from "../../components/Sidebar";
-import { SubmitHandler, useForm } from "react-hook-form";
 
 type CreateUserFormData = {
   name: string;
