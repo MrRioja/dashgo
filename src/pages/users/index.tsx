@@ -43,7 +43,7 @@ export default function UserList({ users }) {
     await queryClient.prefetchQuery(
       ["user", userId],
       async () => {
-        const response = await api.get(`users/${userId}`);
+        const response = await api.get(`/users/${userId}`);
 
         return response.data;
       },
@@ -143,13 +143,3 @@ export default function UserList({ users }) {
     </Box>
   );
 }
-
-export const getServerSideProps: GetServerSideProps = async () => {
-  const { users } = await getUsers(1);
-
-  return {
-    props: {
-      users,
-    },
-  };
-};
