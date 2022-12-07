@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#dashgo">DashGO</a> •
+  <a href="#dashgo-1">DashGO</a> •
   <a href="#instalação">Instalação</a> •
   <a href="#tecnologias">Tecnologias</a> •
   <a href="#autor">Autor</a>  
