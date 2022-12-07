@@ -20,7 +20,31 @@
 
 ## Sobre
 
+Projeto desenvolvido durante o bootcamp Ignite de React da RocketSeat cujo objetivo foi construir uma interface moderna, utilizando tecnologias atuais e em alta no mercado e, claro, seguindo as melhores praticas do desenvolvimento frontend. O projeto foi desenvolvido utilizando NextJS e ChakraUI, além de diversas outras bibliotecas modernas. A aplicação é um dashboard de administração e será apresentada em detalhes no proximo tópico.
+
 ## DashGO
+
+O DashGO é um painel web administrativo que permite o gerenciamento de usuários, formulários e automações. Para realizar o gerenciamento, os usuários devem realizar o login através da tela abaixo para que suas permissões e identidade sejam validados e o acesso seja concedido:
+
+![Tela de login](./readme/login-screen.png)
+
+O formulário de login, assim como os demais formulários da aplicação, possuem validações em todos os campos e, havendo algum problema, mensagens de erros serão adicionadas abaixo dos campos para deixar explicito para os usuários que o dado inserido está incorreto e por que, conforme vemos abaixo:
+
+![Validações da tela de login](./readme/login-screen-form-validation.png)
+
+Após realizar o login o usuário será direcionado para a tela de dashboard, aonde poderá acompanhar alguns indicadores e terá acesso rápido à um menu lateral contendo opções para gerenciar usuários, formulários e automações:
+
+![Dashboard](./readme/dashboard.png)
+
+Das opções presentes no menu lateral apenas a tela de usuários foi implementada pois trata-se de um projeto fictício com finalidade estudantil. Dada essa observação, vamos conhecer o painel de gerenciamento de usuários:
+
+![Lista de usuários](./readme/users-list.png)
+
+Como podemos ver acima, ao acessar a página teremos uma tabela que listará todos os usuários cadastrados na aplicação. Nessa tela o usuário pode navegar pelos registros dos usuários através dos botões de paginação, pode visualizar o cadastro de um usuário e pode cadastrar um novo usuário ao clicar no botão no canto superior direito.
+
+Ao clicar no botão de cadastro o usuário será direcionado para o formulário abaixo para inserir os dados do novo usuário e, não havendo nenhuma irregularidade como abaixo, salva-lo no banco de dados:
+
+![Formulário de cadastro de usuários](./readme/create-user-form-validation.png)
 
 ## Instalação
 
