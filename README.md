@@ -76,13 +76,7 @@ $ yarn dev
 
 ## Tecnologias
 
-<img align="left" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="75" />
-
-<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/2560px-Nextjs-logo.svg.png" alt="Next.js" height="75" />
-
-<img align="left" src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/media/logo-colored@2x.png?raw=true" alt="Chakra UI" height="75"/>
-
-<br><br><br><br>
+[![My Skills](https://skillicons.dev/icons?i=react,nextjs,ts)](https://skillicons.dev)
 
 ## Autor
 
